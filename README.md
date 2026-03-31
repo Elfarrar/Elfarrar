@@ -1,64 +1,56 @@
-<p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&height=150&section=header&text=Rafael%20Veneroso%20Morici%20%7C%20Elfarrar&fontSize=28&fontAlignY=35&animation=fadeIn&desc=Full%20Stack%20Developer%20%7C%20.NET%20%7C%20C%23%20%7C%20SQL&descAlignY=55" />
-</p>
+[![Header](https://capsule-render.vercel.app/api?type=waving&color=gradient&height=150&section=header&text=Rafael%20Veneroso%20Morici%20%7C%20Elfarrar&fontSize=28&fontAlignY=35&animation=fadeIn&desc=Software%20Engineer%20%7C%20.NET%20%7C%20C%23%20%7C%20SQL%20Server%20%7C%20Backend%20Systems&descAlignY=55)](https://github.com/Elfarrar)
 
-# 👋 Hi, I’m Rafael “Elfarrar” Morici
+# 👋 Hi, I'm Rafael "Elfarrar" Morici
 
-Welcome to my corner of GitHub!  
-With **15 years of experience in C# and SQL**, and **5 years with MySQL**, I’ve seen (and built) a lot of systems — and I’m still curious as ever.  
-Currently, I’m exploring **Python** and how automation + AI can improve development workflows.
+Software Engineer based in Belo Horizonte, Brazil, with **7+ years of commercial experience** building enterprise backend systems with **C# and .NET**.
 
----
+I specialize in designing and developing **REST APIs, data processing pipelines, and backend services** using ASP.NET Core, SQL Server, and modern DevOps practices. I'm passionate about clean architecture, performance optimization, and modernizing legacy systems.
 
-## 🧠 About Me
-
-- 💻 Full Stack Developer with a strong backend focus (.NET, APIs, SQL)
-- 🧩 Passionate about architecture, clean code, and maintainability
-- 🚀 Always learning — currently diving into Python and AI integration
-- ⚙️ Love for performance tuning, refactoring and dev productivity
-- ☕ Coffee-driven, curious by nature, and detail-oriented by instinct
-
----
-
-# 👋 Olá, eu sou Rafael “Elfarrar” Morici
-
-Bem-vindo ao meu espaço no GitHub!  
-Com **15 anos de experiência em C# e SQL** e **5 anos com MySQL**, já criei muita coisa — e sigo aprendendo todos os dias.  
-Atualmente estou explorando **Python** e o uso de **IA e automação** para tornar o desenvolvimento mais inteligente.
-
----
-
-## 🧠 Sobre Mim
-
-- 💻 Desenvolvedor Full Stack com foco em backend (.NET, APIs, SQL)
-- 🧩 Apaixonado por arquitetura, performance e código limpo
-- 🚀 Em constante aprendizado — Python, IA e integrações
-- ⚙️ Experiência com pipelines, observabilidade e microsserviços
-- ☕ Café e curiosidade movem minhas ideias
+Currently exploring **cloud-native architectures (Azure/AWS)** and **AI/ML integration** in data workflows.
 
 ---
 
 ## 🧰 Tech Stack
 
-| Area | Tools & Technologies |
-|------|----------------------|
-| Languages | **C#**, **SQL**, Python (learning) |
-| Databases | **MySQL**, SQL Server, EF Core, Dapper |
-| Frameworks | .NET, ASP.NET Core, Razor Pages, LINQ |
-| DevOps / Tools | Git, Jenkins, Docker, CI/CD pipelines |
-| Monitoring | Splunk, DataDog, SonarQube |
-| Others | Microservices, REST APIs, System Design |
+| Area | Technologies |
+| --- | --- |
+| **Languages** | C#, SQL, T-SQL, Python, JavaScript, TypeScript, HTML5/CSS3 |
+| **Frameworks** | .NET Core, ASP.NET Core MVC, ASP.NET Web API, WPF, WCF, Blazor, Angular |
+| **Databases** | Microsoft SQL Server, MySQL, PostgreSQL, Entity Framework Core, Dapper |
+| **Architecture** | REST API Design, DDD, Microservices, SOA, Layered Architecture, SOLID, OOP |
+| **DevOps & Cloud** | Git, Docker, Jenkins, CI/CD Pipelines, GCP, Azure (learning), AWS (learning) |
+| **Testing & Quality** | Unit Testing, Integration Testing, Code Reviews, SonarQube |
+| **Monitoring** | Splunk, Datadog |
+| **Methodologies** | Scrum, Kanban, Jira, Agile |
+
+---
+
+## 💼 Professional Experience
+
+**Senior Software Engineer @ Questrade** *(Jun 2019 – Jan 2026)*
+- Developed enterprise web applications and backend services using C#, ASP.NET Core, and SQL Server
+- Designed RESTful APIs for system integration and business workflow automation
+- Managed affiliate systems with focus on data processing and reporting reliability
+- Led code reviews, mentored junior developers, and contributed to CI/CD pipeline improvements
+
+**Software Engineer @ Mereo** *(Jul 2018 – Jun 2019)*
+- Built a people management platform using C#, ASP.NET, Angular 2, and SQL Server
+- Developed backend services and REST APIs with unit and integration testing
+
+**Mid-Level Software Engineer @ EMC** *(Jan 2017 – Jul 2018)*
+- Developed an enterprise ERP system using C#, WPF, Web Forms, and WCF
+- Applied Domain-Driven Design (DDD) in a layered architecture
+- Built data validation pipelines and custom SQL scripts for data transformation
 
 ---
 
 ## 🚀 Featured Projects
 
-| Project | Description | Tech Stack |
-|----------|--------------|-------------|
-| [rocketseat_bootcamp_desafio02](https://github.com/Elfarrar/rocketseat_bootcamp_desafio02) | API challenge from GoStack Bootcamp | Node.js, Express |
+| Project | Description | Tech |
+| --- | --- | --- |
+| [Code_Nation_Julio_Cesar_Cryptography](https://github.com/Elfarrar/Code_Nation_Julio_Cesar_Cryptography) | Caesar cipher cryptography challenge | C# |
 | [rocketseat_bootcamp_gobarber](https://github.com/Elfarrar/rocketseat_bootcamp_gobarber) | Full-stack barbershop scheduling system | TypeScript, React, Node.js |
-| [Code_Nation_Julio_Cesar_Cryptography](https://github.com/Elfarrar/Code_Nation_Julio_Cesar_Cryptography) | Cryptography experiment based on Caesar cipher | C# |
-| [rocketseat_bootcamp_desafio03](https://github.com/Elfarrar/rocketseat_bootcamp_desafio03) | Bootcamp challenge — API improvements and refactoring | Node.js |
+| [rocketseat_bootcamp_desafio02](https://github.com/Elfarrar/rocketseat_bootcamp_desafio02) | API challenge from GoStack Bootcamp | Node.js, Express |
 
 > 🧭 Check out all my repositories [here](https://github.com/Elfarrar?tab=repositories).
 
@@ -66,30 +58,28 @@ Atualmente estou explorando **Python** e o uso de **IA e automação** para torn
 
 ## 🏆 Highlights
 
-- 15+ years working with enterprise systems and backend architecture  
-- Experienced in mentoring, refactoring legacy systems, and performance tuning  
-- Exploring AI integrations, automation flows, and Python scripting  
-- Strong believer in code readability and continuous improvement
+- 🔧 7+ years building production systems with C#, .NET, and SQL Server
+- 🏗️ Experienced in REST API design, microservices, and distributed backend architectures
+- 📊 Strong focus on data validation, extraction, and processing pipelines
+- 🔄 Track record of legacy system modernization and cloud migration readiness
+- 🧪 Advocate for testing culture, code reviews, and clean code principles
+- 🌍 Fully available for remote work across time zones
 
 ---
 
 ## 📊 GitHub Stats
 
-<p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=Elfarrar&show_icons=true&theme=tokyonight&count_private=true" height="160" />
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Elfarrar&layout=compact&theme=tokyonight" height="160" />
-</p>
+![GitHub Stats](https://github-readme-stats.vercel.app/api?username=Elfarrar&show_icons=true&theme=tokyonight&count_private=true)
+![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=Elfarrar&layout=compact&theme=tokyonight)
 
 ---
 
-## 🤝 Let’s Connect
+## 🤝 Let's Connect
 
-- 💼 [LinkedIn](https://www.linkedin.com/)  
-- 📧 **your.email@example.com**  
-- 🌐 [rvm-it.com.br](https://rvm-it.com.br) *(if you want to showcase your personal site)*
+- 💼 [LinkedIn](https://www.linkedin.com/in/rafael-veneroso-morici/)
+- 📧 **rvenerosomorici@gmail.com**
+- 📍 Belo Horizonte, MG, Brazil
 
 ---
 
-<p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&height=120&section=footer" />
-</p>
+[![Footer](https://capsule-render.vercel.app/api?type=waving&color=gradient&height=120&section=footer)](https://github.com/Elfarrar)
