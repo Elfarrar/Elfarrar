@@ -46,8 +46,8 @@ Contribution: [adding RVM.TcgDex to the TCGdex community SDKs](https://github.co
 
 | | |
 |---|---|
-| **Backend** | C#, .NET 10, ASP.NET Core, EF Core, Blazor, REST, Vertical Slice Architecture, DDD |
-| **Frontend** | TypeScript, Next.js, Angular, Astro |
+| **Backend** | C#, .NET 10, ASP.NET Core, EF Core, REST, Vertical Slice Architecture, DDD |
+| **Frontend** | Blazor (Server and WebAssembly), TypeScript, Next.js, Angular, Astro |
 | **Data** | PostgreSQL, SQL Server, SQLite, MySQL |
 | **AI** | Claude Code, Codex, Claude Skills, MCP, LLM tool use (Anthropic, OpenAI, Gemini), Whisper |
 | **Cloud & DevOps** | AWS, Azure, GCP, Docker, GitHub Actions, Gitea, Linux, Caddy/Nginx, Playwright |
@@ -99,8 +99,8 @@ Contribuição: [inclusão do RVM.TcgDex entre os SDKs da comunidade TCGdex](htt
 
 | | |
 |---|---|
-| **Backend** | C#, .NET 10, ASP.NET Core, EF Core, Blazor, REST, Vertical Slice Architecture, DDD |
-| **Frontend** | TypeScript, Next.js, Angular, Astro |
+| **Backend** | C#, .NET 10, ASP.NET Core, EF Core, REST, Vertical Slice Architecture, DDD |
+| **Frontend** | Blazor (Server e WebAssembly), TypeScript, Next.js, Angular, Astro |
 | **Dados** | PostgreSQL, SQL Server, SQLite, MySQL |
 | **IA** | Claude Code, Codex, Claude Skills, MCP, tool use com LLM (Anthropic, OpenAI, Gemini), Whisper |
 | **Cloud e DevOps** | AWS, Azure, GCP, Docker, GitHub Actions, Gitea, Linux, Caddy/Nginx, Playwright |
