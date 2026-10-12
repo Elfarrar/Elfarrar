@@ -36,7 +36,7 @@ Most of this lives in private repositories. Happy to walk through it in a call.
 |---|---|
 | [**RVM.TcgDex**](https://github.com/Elfarrar/RVM.TcgDex) [![NuGet](https://img.shields.io/nuget/v/RVM.TcgDex?style=flat-square)](https://www.nuget.org/packages/RVM.TcgDex) | C# SDK for the [TCGdex](https://tcgdex.dev) API (Pokémon TCG): cards, sets, prices and images in 18 languages. `net8.0`/`net10.0`, source-generated JSON, built-in cache. |
 | [**RVM.UI.Tutor**](https://github.com/Elfarrar/RVM.UI.Tutor) | Guided tours for Blazor (Server and WebAssembly) with zero runtime dependencies: highlight, step-by-step, keyboard and ARIA, optional narrated presenter. |
-| [**RVM.DesignSystem**](https://github.com/Elfarrar/RVM.DesignSystem) | Blazor component library shipped as a NuGet package, with a [documentation site](https://design.dev.rvmtech.com.br) built with the library itself. Visual derived from the NEATLAB kit by hello.uiworld (CC BY 4.0). |
+| [**RVM.DesignSystem**](https://github.com/Elfarrar/RVM.DesignSystem) | Blazor component library packaged for NuGet, with a [documentation site](https://design.dev.rvmtech.com.br) built with the library itself. Visual derived from the NEATLAB kit by hello.uiworld (CC BY 4.0). |
 | [**RVM.Curriculo**](https://github.com/Elfarrar/RVM.Curriculo) | My resume as code: Markdown → DOCX/PDF and a bilingual Astro site, deployed by GitHub Actions. |
 
 Contribution: [adding RVM.TcgDex to the TCGdex community SDKs](https://github.com/tcgdex/documentation/pull/236).
@@ -80,7 +80,7 @@ em volta deles.
 
 **Open source:** [RVM.TcgDex](https://github.com/Elfarrar/RVM.TcgDex) (SDK C# da API TCGdex, no NuGet),
 [RVM.UI.Tutor](https://github.com/Elfarrar/RVM.UI.Tutor) (tour guiado para Blazor),
-[RVM.DesignSystem](https://github.com/Elfarrar/RVM.DesignSystem) (biblioteca de componentes Blazor no NuGet, com site de documentação) e
+[RVM.DesignSystem](https://github.com/Elfarrar/RVM.DesignSystem) (biblioteca de componentes Blazor empacotada para NuGet, com site de documentação) e
 [RVM.Curriculo](https://github.com/Elfarrar/RVM.Curriculo) (meu currículo como código).
 
 Currículo completo em [rvmtech.com.br](https://rvmtech.com.br).
