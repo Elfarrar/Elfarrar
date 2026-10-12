@@ -1,85 +1,118 @@
-[![Header](https://capsule-render.vercel.app/api?type=waving&color=gradient&height=150&section=header&text=Rafael%20Veneroso%20Morici%20%7C%20Elfarrar&fontSize=28&fontAlignY=35&animation=fadeIn&desc=Software%20Engineer%20%7C%20.NET%20%7C%20C%23%20%7C%20SQL%20Server%20%7C%20Backend%20Systems&descAlignY=55)](https://github.com/Elfarrar)
+<h1 align="center">Rafael Veneroso Morici</h1>
 
-# 👋 Hi, I'm Rafael "Elfarrar" Morici
+<p align="center">
+  <b>Senior Software Engineer · C# / .NET · Applied AI</b><br>
+  Belo Horizonte, Brazil · remote
+</p>
 
-Software Engineer based in Belo Horizonte, Brazil, with **7+ years of commercial experience** building enterprise backend systems with **C# and .NET**.
-
-I specialize in designing and developing **REST APIs, data processing pipelines, and backend services** using ASP.NET Core, SQL Server, and modern DevOps practices. I'm passionate about clean architecture, performance optimization, and modernizing legacy systems.
-
-Currently exploring **cloud-native architectures (Azure/AWS)** and **AI/ML integration** in data workflows.
-
----
-
-## 🧰 Tech Stack
-
-| Area | Technologies |
-| --- | --- |
-| **Languages** | C#, SQL, T-SQL, Python, JavaScript, TypeScript, HTML5/CSS3 |
-| **Frameworks** | .NET Core, ASP.NET Core MVC, ASP.NET Web API, WPF, WCF, Blazor, Angular |
-| **Databases** | Microsoft SQL Server, MySQL, PostgreSQL, Entity Framework Core, Dapper |
-| **Architecture** | REST API Design, DDD, Microservices, SOA, Layered Architecture, SOLID, OOP |
-| **DevOps & Cloud** | Git, Docker, Jenkins, CI/CD Pipelines, GCP, Azure (learning), AWS (learning) |
-| **Testing & Quality** | Unit Testing, Integration Testing, Code Reviews, SonarQube |
-| **Monitoring** | Splunk, Datadog |
-| **Methodologies** | Scrum, Kanban, Jira, Agile |
+<p align="center">
+  <a href="https://rvmtech.com.br"><img alt="Resume" src="https://img.shields.io/badge/resume-rvmtech.com.br-68217A?style=flat-square"></a>
+  <a href="https://rvmit.com.br"><img alt="RVMIT" src="https://img.shields.io/badge/company-rvmit.com.br-007ACC?style=flat-square"></a>
+  <a href="https://www.linkedin.com/in/rafael-veneroso-morici/"><img alt="LinkedIn" src="https://img.shields.io/badge/LinkedIn-rafael--veneroso--morici-0A66C2?style=flat-square&logo=linkedin&logoColor=white"></a>
+  <a href="mailto:rvenerosomorici@gmail.com"><img alt="Email" src="https://img.shields.io/badge/email-rvenerosomorici%40gmail.com-555?style=flat-square&logo=gmail&logoColor=white"></a>
+</p>
 
 ---
 
-## 💼 Professional Experience
+15+ years building business systems in C# and .NET end to end, from the domain model to production:
+ERP, banking, HR, carbon-emissions calculation and, today, healthcare. Lately my focus is making AI
+agents do real engineering work: skills, orchestration, tool use, MCP and the guardrails around them.
 
-**Senior Software Engineer @ Questrade** *(Jun 2019 – Jan 2026)*
-- Developed enterprise web applications and backend services using C#, ASP.NET Core, and SQL Server
-- Designed RESTful APIs for system integration and business workflow automation
-- Managed affiliate systems with focus on data processing and reporting reliability
-- Led code reviews, mentored junior developers, and contributed to CI/CD pipeline improvements
+## What I'm building
 
-**Software Engineer @ Mereo** *(Jul 2018 – Jun 2019)*
-- Built a people management platform using C#, ASP.NET, Angular 2, and SQL Server
-- Developed backend services and REST APIs with unit and integration testing
+Most of this lives in private repositories. Happy to walk through it in a call.
 
-**Mid-Level Software Engineer @ EMC** *(Jan 2017 – Jul 2018)*
-- Developed an enterprise ERP system using C#, WPF, Web Forms, and WCF
-- Applied Domain-Driven Design (DDD) in a layered architecture
-- Built data validation pipelines and custom SQL scripts for data transformation
+| Project | What it is |
+|---|---|
+| **RVM.Harness** | The "handbook" my AI agents work by: layered instructions per role, Claude Skills for the whole delivery process, shell hooks, persistent memory, a JSON schema for every agent result, and a weekly self-audit that opens a PR. |
+| **RVM.Maestro** | An orchestration hub for AI agents. It routes a prompt to the right project and chains six roles (PMO, Developer, Reviewer, QA, DevOps, Architect), each on the model that fits the job. The Reviewer runs on a different vendor on purpose. Humans only see the approval queue. Spec to production in 8 days. |
+| **Safra em Dia** | ERP for small farmers, operated over WhatsApp in natural language: Whisper speech-to-text, LLM tool use (Gemini with OpenAI fallback) and an MCP layer over the ERP operations. |
+| **Obra em Dia** | Machinery and workforce management for construction companies. Nothing gets allocated unless it is cleared, and every cost lands in the right cost center. |
+| **Binder** | Collection and value tracker for Pokémon, Magic and Yu-Gi-Oh cards: 166k+ cards, search by photo (OCR), collection value in BRL, USD and EUR from TCGplayer and Cardmarket prices. Live at [binder.rvmtech.com.br](https://binder.rvmtech.com.br) · [case study](https://rvmtech.com.br/en/portfolio/binder/). |
+| **RVM.UI** | The Blazor component library behind all of the above (v3, 150+ `Rvm*` components). Its design tokens come from an extractor that reads the Figma `.fig` file directly. Private because the design kit it reimplements is licensed per seat. |
 
----
+## Open source
 
-## 🚀 Featured Projects
+| Repository | |
+|---|---|
+| [**RVM.TcgDex**](https://github.com/Elfarrar/RVM.TcgDex) [![NuGet](https://img.shields.io/nuget/v/RVM.TcgDex?style=flat-square)](https://www.nuget.org/packages/RVM.TcgDex) | C# SDK for the [TCGdex](https://tcgdex.dev) API (Pokémon TCG): cards, sets, prices and images in 18 languages. `net8.0`/`net10.0`, source-generated JSON, built-in cache. |
+| [**RVM.UI.Tutor**](https://github.com/Elfarrar/RVM.UI.Tutor) | Guided tours for Blazor (Server and WebAssembly) with zero runtime dependencies: highlight, step-by-step, keyboard and ARIA, optional narrated presenter. |
+| [**RVM.DesignSystem**](https://github.com/Elfarrar/RVM.DesignSystem) | Blazor component library packaged for NuGet, with a [documentation site](https://design.dev.rvmtech.com.br) built with the library itself. Visual derived from the NEATLAB kit by hello.uiworld (CC BY 4.0). |
+| [**RVM.Curriculo**](https://github.com/Elfarrar/RVM.Curriculo) | My resume as code: Markdown → DOCX/PDF and a bilingual Astro site, deployed by GitHub Actions. |
 
-| Project | Description | Tech |
-| --- | --- | --- |
-| [Code_Nation_Julio_Cesar_Cryptography](https://github.com/Elfarrar/Code_Nation_Julio_Cesar_Cryptography) | Caesar cipher cryptography challenge | C# |
-| [rocketseat_bootcamp_gobarber](https://github.com/Elfarrar/rocketseat_bootcamp_gobarber) | Full-stack barbershop scheduling system | TypeScript, React, Node.js |
-| [rocketseat_bootcamp_desafio02](https://github.com/Elfarrar/rocketseat_bootcamp_desafio02) | API challenge from GoStack Bootcamp | Node.js, Express |
+Contribution: [adding RVM.TcgDex to the TCGdex community SDKs](https://github.com/tcgdex/documentation/pull/236).
 
-> 🧭 Check out all my repositories [here](https://github.com/Elfarrar?tab=repositories).
+## Stack
 
----
+| | |
+|---|---|
+| **Backend** | C#, .NET 10, ASP.NET Core, EF Core, REST, Vertical Slice Architecture, DDD |
+| **Frontend** | Blazor (Server and WebAssembly), TypeScript, Next.js, Angular, Astro |
+| **Data** | PostgreSQL, SQL Server, SQLite, MySQL |
+| **AI** | Claude Code, Codex, Claude Skills, MCP, LLM tool use (Anthropic, OpenAI, Gemini), Whisper |
+| **Cloud & DevOps** | AWS, Azure, GCP, Docker, GitHub Actions, Gitea, Linux, Caddy/Nginx, Playwright |
 
-## 🏆 Highlights
+## Experience
 
-- 🔧 7+ years building production systems with C#, .NET, and SQL Server
-- 🏗️ Experienced in REST API design, microservices, and distributed backend architectures
-- 📊 Strong focus on data validation, extraction, and processing pipelines
-- 🔄 Track record of legacy system modernization and cloud migration readiness
-- 🧪 Advocate for testing culture, code reviews, and clean code principles
-- 🌍 Fully available for remote work across time zones
+- **Marlabs** · Senior Software Engineer · Jun 2026 – present: US clients in healthcare and carbon-emissions software
+- **Questrade** · Senior Software Developer · Jun 2020 – Jan 2026: banking web systems, technical owner of affiliate and partner systems
+- **Mereo** · Senior Software Developer / Team Lead · Jul 2018 – Jun 2020: HR SaaS, led a team of 3 developers and 1 QA
+- **EMC** · Mid-level Software Developer · Jan 2017 – Jul 2018: ERP built from scratch with DDD
 
----
+Postgraduate program in Software Engineering for Applied AI (UNIPDS, Sep 2026 – expected 2027).
 
-## 📊 GitHub Stats
+<details>
+<summary><b>🇧🇷 Em português</b></summary>
 
-![GitHub Stats](https://github-readme-stats.vercel.app/api?username=Elfarrar&show_icons=true&theme=tokyonight&count_private=true)
-![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=Elfarrar&layout=compact&theme=tokyonight)
+<br>
 
----
+Mais de 15 anos construindo sistemas corporativos em C# e .NET de ponta a ponta, do modelo de domínio
+à produção: ERP, banco, gestão de pessoas, cálculo de emissão de carbono e, hoje, saúde. Meu foco
+recente é fazer agentes de IA trabalharem de verdade: skills, orquestração, tool use, MCP e as travas
+em volta deles.
 
-## 🤝 Let's Connect
+### O que estou construindo
 
-- 💼 [LinkedIn](https://www.linkedin.com/in/rafael-veneroso-morici/)
-- 📧 **rvenerosomorici@gmail.com**
-- 📍 Belo Horizonte, MG, Brazil
+A maior parte está em repositórios privados. Posso mostrar numa conversa.
 
----
+| Projeto | O que é |
+|---|---|
+| **RVM.Harness** | O "manual" com que meus agentes de IA trabalham: instruções em camadas por papel, Claude Skills para o processo de entrega inteiro, hooks em shell, memória persistente, um JSON schema para o resultado de todo agente e uma auditoria semanal que abre PR. |
+| **RVM.Maestro** | Central de orquestração dos agentes. Roteia o pedido para o projeto certo e encadeia seis papéis (PMO, Developer, Reviewer, QA, DevOps e Arquiteto), cada um com o modelo adequado à função. O revisor roda em outro fornecedor, de propósito. Para mim sobra só a fila de aprovação. Da especificação à produção em 8 dias. |
+| **Safra em Dia** | ERP para o pequeno produtor rural, operado pelo WhatsApp em linguagem natural: Whisper para transcrever áudio, tool use com LLM (Gemini, com OpenAI de fallback) e uma camada MCP sobre as operações do ERP. |
+| **Obra em Dia** | Gestão de máquinas e pessoas em construtoras. Nada é alocado sem estar apto, e todo custo cai no centro de custo certo. |
+| **Binder** | Coleção e valor de cartas de Pokémon, Magic e Yu-Gi-Oh: mais de 166 mil cartas, busca pela foto (OCR) e valor da coleção em R$, US$ e € pelos preços do TCGplayer e do Cardmarket. No ar em [binder.rvmtech.com.br](https://binder.rvmtech.com.br) · [estudo de caso](https://rvmtech.com.br/portfolio/binder/). |
+| **RVM.UI** | A biblioteca de componentes Blazor por trás de tudo isso (v3, mais de 150 componentes `Rvm*`). Os tokens de design vêm de um extrator que lê o arquivo `.fig` do Figma direto. É privada porque o kit de design que ela reimplementa tem licença por usuário. |
 
-[![Footer](https://capsule-render.vercel.app/api?type=waving&color=gradient&height=120&section=footer)](https://github.com/Elfarrar)
+### Open source
+
+| Repositório | |
+|---|---|
+| [**RVM.TcgDex**](https://github.com/Elfarrar/RVM.TcgDex) | SDK C# da API [TCGdex](https://tcgdex.dev) (Pokémon TCG): cartas, coleções, preços e imagens em 18 idiomas. `net8.0`/`net10.0`, JSON por source generator, cache embutido. Publicado no nuget.org. |
+| [**RVM.UI.Tutor**](https://github.com/Elfarrar/RVM.UI.Tutor) | Tour guiado para Blazor (Server e WebAssembly), sem dependência em tempo de execução: destaque, passo a passo, teclado e ARIA, apresentador com narração opcional. |
+| [**RVM.DesignSystem**](https://github.com/Elfarrar/RVM.DesignSystem) | Biblioteca de componentes Blazor empacotada para NuGet, com [site de documentação](https://design.dev.rvmtech.com.br) feito com a própria biblioteca. Visual derivado do kit NEATLAB, de hello.uiworld (CC BY 4.0). |
+| [**RVM.Curriculo**](https://github.com/Elfarrar/RVM.Curriculo) | Meu currículo como código: Markdown → DOCX/PDF e um site Astro bilíngue, publicado pelo GitHub Actions. |
+
+Contribuição: [inclusão do RVM.TcgDex entre os SDKs da comunidade TCGdex](https://github.com/tcgdex/documentation/pull/236).
+
+### Stack
+
+| | |
+|---|---|
+| **Backend** | C#, .NET 10, ASP.NET Core, EF Core, REST, Vertical Slice Architecture, DDD |
+| **Frontend** | Blazor (Server e WebAssembly), TypeScript, Next.js, Angular, Astro |
+| **Dados** | PostgreSQL, SQL Server, SQLite, MySQL |
+| **IA** | Claude Code, Codex, Claude Skills, MCP, tool use com LLM (Anthropic, OpenAI, Gemini), Whisper |
+| **Cloud e DevOps** | AWS, Azure, GCP, Docker, GitHub Actions, Gitea, Linux, Caddy/Nginx, Playwright |
+
+### Experiência
+
+- **Marlabs** · Engenheiro de Software Sênior · jun/2026 – atual: clientes americanos de software de saúde e de cálculo de emissão de carbono
+- **Questrade** · Programador Sênior · jun/2020 – jan/2026: sistemas web do banco, responsável técnico pelos sistemas de afiliados e parceiros
+- **Mereo** · Programador Sênior / Líder Técnico · jul/2018 – jun/2020: SaaS de RH, liderança de 3 desenvolvedores e 1 QA
+- **EMC** · Programador Pleno · jan/2017 – jul/2018: ERP construído do zero com DDD
+
+Pós-graduação em Engenharia de Software em IA Aplicada (UNIPDS, set/2026 – previsão 2027).
+Currículo completo em [rvmtech.com.br](https://rvmtech.com.br).
+
+</details>
