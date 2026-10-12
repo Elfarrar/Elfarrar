@@ -28,6 +28,7 @@ Most of this lives in private repositories. Happy to walk through it in a call.
 | **RVM.Maestro** | An orchestration hub for AI agents. It routes a prompt to the right project and chains six roles (PMO, Developer, Reviewer, QA, DevOps, Architect), each on the model that fits the job. The Reviewer runs on a different vendor on purpose. Humans only see the approval queue. Spec to production in 8 days. |
 | **Safra em Dia** | ERP for small farmers, operated over WhatsApp in natural language: Whisper speech-to-text, LLM tool use (Gemini with OpenAI fallback) and an MCP layer over the ERP operations. |
 | **Obra em Dia** | Machinery and workforce management for construction companies. Nothing gets allocated unless it is cleared, and every cost lands in the right cost center. |
+| **RVM.UI** | The Blazor component library behind all of the above (v3, 150+ `Rvm*` components). Its design tokens come from an extractor that reads the Figma `.fig` file directly. Private because the design kit it reimplements is licensed per seat. |
 
 ## Open source
 
@@ -35,6 +36,7 @@ Most of this lives in private repositories. Happy to walk through it in a call.
 |---|---|
 | [**RVM.TcgDex**](https://github.com/Elfarrar/RVM.TcgDex) [![NuGet](https://img.shields.io/nuget/v/RVM.TcgDex?style=flat-square)](https://www.nuget.org/packages/RVM.TcgDex) | C# SDK for the [TCGdex](https://tcgdex.dev) API (Pokémon TCG): cards, sets, prices and images in 18 languages. `net8.0`/`net10.0`, source-generated JSON, built-in cache. |
 | [**RVM.UI.Tutor**](https://github.com/Elfarrar/RVM.UI.Tutor) | Guided tours for Blazor (Server and WebAssembly) with zero runtime dependencies: highlight, step-by-step, keyboard and ARIA, optional narrated presenter. |
+| [**RVM.DesignSystem**](https://github.com/Elfarrar/RVM.DesignSystem) | Blazor component library shipped as a NuGet package, with a [documentation site](https://design.dev.rvmtech.com.br) built with the library itself. Visual derived from the NEATLAB kit by hello.uiworld (CC BY 4.0). |
 | [**RVM.Curriculo**](https://github.com/Elfarrar/RVM.Curriculo) | My resume as code: Markdown → DOCX/PDF and a bilingual Astro site, deployed by GitHub Actions. |
 
 Contribution: [adding RVM.TcgDex to the TCGdex community SDKs](https://github.com/tcgdex/documentation/pull/236).
@@ -74,9 +76,11 @@ em volta deles.
 - **RVM.Maestro**: central de orquestração dos agentes. Roteia o pedido para o projeto certo e encadeia seis papéis (PMO, Developer, Reviewer, QA, DevOps e Arquiteto), cada um com o modelo adequado. O revisor roda em outro fornecedor, de propósito. Para mim sobra só a fila de aprovação. Saiu da especificação à produção em 8 dias.
 - **Safra em Dia**: ERP para o pequeno produtor rural, operado pelo WhatsApp em linguagem natural. Usa Whisper, tool use com LLM (Gemini, com OpenAI de fallback) e uma camada MCP sobre o ERP.
 - **Obra em Dia**: gestão de máquinas e pessoas em construtoras. Nada é alocado sem estar apto, e todo custo cai no centro de custo certo.
+- **RVM.UI**: a biblioteca de componentes Blazor por trás de tudo isso (v3, mais de 150 componentes `Rvm*`). Os tokens de design vêm de um extrator que lê o arquivo `.fig` do Figma direto. É privada porque o kit de design que ela reimplementa tem licença por usuário.
 
 **Open source:** [RVM.TcgDex](https://github.com/Elfarrar/RVM.TcgDex) (SDK C# da API TCGdex, no NuGet),
-[RVM.UI.Tutor](https://github.com/Elfarrar/RVM.UI.Tutor) (tour guiado para Blazor) e
+[RVM.UI.Tutor](https://github.com/Elfarrar/RVM.UI.Tutor) (tour guiado para Blazor),
+[RVM.DesignSystem](https://github.com/Elfarrar/RVM.DesignSystem) (biblioteca de componentes Blazor no NuGet, com site de documentação) e
 [RVM.Curriculo](https://github.com/Elfarrar/RVM.Curriculo) (meu currículo como código).
 
 Currículo completo em [rvmtech.com.br](https://rvmtech.com.br).
